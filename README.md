@@ -5,7 +5,6 @@ Comparação de serviços da Huawei Cloud vs AWS vs Azure vs GCP
 
 ## Compute
 
-
 | Huawei Cloud          | AWS                   | AZURE               | GCP                 |
 | --------------------- | --------------------- | ------------------- | ------------------- |
 | ECS                   | 3.5.1                 | 3.5.1               | 3.5.1               |
@@ -22,6 +21,9 @@ Comparação de serviços da Huawei Cloud vs AWS vs Azure vs GCP
 
 
 ### ECS - Elastic Cloud Server
+#### Quick Links:
+- [Sample Course](https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXE006+Self-paced/about?isAuth=0&cfrom=hwc), can get the introductory tutorial of MRS.
+- [ECS Homepage](https://www.huaweicloud.com/en-us/product/mrs.html), or Chinese language site [MapReduce服务](https://www.huaweicloud.com/product/mrs.html)
 
 ## Storage
 ### EVS
