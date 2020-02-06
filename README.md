@@ -3,7 +3,8 @@
 
 Comparison of Huawei Cloud services vs AWS vs Azure vs GCP
 
-## Compute
+## Compute 
+![GitHub Logo](/img/01compute.png)
 
 | Huawei Cloud          | AWS                            | AZURE               | GCP                 |
 | --------------------- | ------------------------------ | ------------------- | ------------------- |
