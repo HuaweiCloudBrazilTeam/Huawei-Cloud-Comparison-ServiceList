@@ -7,7 +7,7 @@ Comparison of Huawei Cloud services vs AWS vs Azure vs GCP
 
 | Huawei Cloud          | AWS                            | AZURE               | GCP                 |
 | --------------------- | ------------------------------ | ------------------- | ------------------- |
-| [ECS](###ecs-elastic-cloud-server)                   | EC2                            | VM                  | Compute Engine      |
+| [ECS](#ecs---elastic-cloud-server)                   | EC2                            | VM                  | Compute Engine      |
 | Batch                 | Batch                          | Batch               | Batch               |
 | IMS                   | AMI                            | VM Images           | Images              |
 | Auto Scaling          | EC2 Auto Scaling               | AutoScale           | AutoScaler          |
