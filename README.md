@@ -5,16 +5,16 @@ Comparison of Huawei Cloud services vs AWS vs Azure vs GCP
 
 ## Compute
 
-| Huawei Cloud          | AWS                   | AZURE               | GCP                 |
-| --------------------- | --------------------- | ------------------- | ------------------- |
-| ECS                   | EC2                   | VM                  | Compute Engine      |
-| Batch                 | Batch                 | Batch               | Batch               |
-| IMS                   | AMI                   | VM Images           | Images              |
-| Auto Scaling          | EC2 Auto Scaling      | AutoScale           | AutoScaler          |
-| CCE                   | ECS                   | Kubernetes Service  | Kubernetes Engines  |
-| CCI                   | Fargate               | Container Instances | Cloud Run           |
-| Function Graph        | Lambda                | Function Apps       | Cloud Functions     |
-| Bare Metal Server     |                       |                     |                     |
+| Huawei Cloud          | AWS                            | AZURE               | GCP                 |
+| --------------------- | ------------------------------ | ------------------- | ------------------- |
+| [ECS](###ecs-elastic-cloud-server)                   | EC2                            | VM                  | Compute Engine      |
+| Batch                 | Batch                          | Batch               | Batch               |
+| IMS                   | AMI                            | VM Images           | Images              |
+| Auto Scaling          | EC2 Auto Scaling               | AutoScale           | AutoScaler          |
+| CCE                   | ECS  Elastic Container Service | Kubernetes Service  | Kubernetes Engines  |
+| CCI                   | Fargate                        | Container Instances | Cloud Run           |
+| Function Graph        | Lambda                         | Function Apps       | Cloud Functions     |
+| Bare Metal Server     |                                |                     |                     |
 
 ### ECS - Elastic Cloud Server
 Um Elastic Cloud Server (ECS) é um servidor em nuvem que fornece recursos de computação escaláveis e sob demanda para aplicativos seguros, flexíveis e eficientes.
