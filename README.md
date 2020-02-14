@@ -81,8 +81,8 @@ O recurso de autoprovisionamento do BMS permite que você solicite um BMS sem a 
 ## Storage
 | Huawei Cloud          | AWS                   | AZURE               | GCP                 |
 | --------------------- | --------------------- | ------------------- | ------------------- |
-| ECS                   | 3.5.1                 | 3.5.1               | 3.5.1               |
-| Batch                 | 2.8.3                 | 3.1.1               | 3.5.1               |
+| EVS                   | 3.5.1                 | 3.5.1               | 3.5.1               |
+| Cloud Server Backup Service                  | 2.8.3                 | 3.1.1               | 3.5.1               |
 | IMS                   | 1.3.1                 | 2.1.1               | 3.5.1               |
 | Auto Scaling          | 2.3.0                 | NA                  | 3.5.1               |
 | CCE                   | NA                    | 0.9.1               | 3.5.1               |
