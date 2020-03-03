@@ -133,7 +133,7 @@ O Scalable File Service (SFS) é um serviço NAS (Network Attached Storage) que 
 O Data Express Service (DES) é um serviço de transmissão de dados em escala TB ou PB. Ele usa mídia de armazenamento físico (como [Teleport(Ainda não disponivel no Brasil)](https://support.huaweicloud.com/en-us/des_faq/des_faq_0053.html), unidades flash USB externas, discos SATA e discos SAS) para transmitir uma grande quantidade de dados ao HUAWEI CLOUD. O DES fornece uma velocidade de transmissão de dados de 1000 Mbit / s, 10 vezes mais rápida que a transmissão de alta velocidade pela Internet, mas com apenas um quinto do custo. Ajuda a resolver problemas enfrentados pela transmissão massiva de dados, como altos custos de rede e longo tempo de transmissão. O DES não ocupa a largura de banda da sua rede pública ou compete com os principais serviços por recursos de largura de banda.
 Atualmente, o DES suporta dois modos de transmissão de dados: por teletransporte e por disco. O teleporte se adapta à migração de dados nas escalas TB e PB, enquanto os discos são preferidos para a migração de dados no nível da TB. Selecione um modo de transmissão com base na quantidade de dados a serem transmitidos. Para obter detalhes, consulte a Tabela 1. Para o DES baseado em teleporte, você receberá um teleporte enviado por um data center (DC) da Huawei. Para o DES baseado em disco, você precisa preparar os discos sozinho.
 
-Maiores informações sobre o Huawei *Teleport* appliance: 
+Maiores informações sobre o Huawei *Teleport appliance*: 
  Teleport é um dispositivo de armazenamento personalizado de alto desempenho usado para transmissão de dados. É o meio de migração para o DES baseado em applicance. O data center da Huawei envia o Teleports para os usuários, os usuários copiam seus dados para o sistema de armazenamento de Teleport e enviam o de volta para a Huawei para migrar dados para o HUAWEI CLOUD OBS. Através do Teleport, os dados podem ser carregados no HUAWEI CLOUD dentro de poucos dias. 
  O Teleport possui os seguintes recursos:
 * É à prova de poeira e água e resistente à vibração e compressão. Com uma trava de segurança e gravação de alarme, além das funções de criptografia AES-256, os dados são protegidos durante a entrega.
@@ -217,19 +217,255 @@ Maiores informações sobre o Huawei *Teleport* appliance:
 - [API Gateway General FAQs]()
 - [API Gateway Billing Details]()
 
-
-
 ## Management
+| Huawei Cloud                      | AWS                   | AZURE              | GCP                 |
+| ---------------------             | --------------------- | -------------------| ------------------- |
+| [Cloud Eye](#cloud-eye)           | CloudWatch            | Monitor            | Monitoring          |
+| [Log Tank](#log-tank)             | CloudTrail            | Monitor            | Logging             |
+| [IAM](#iam)                       | IAM                   | Managed Identities | IAM                 |
+| [Cloud Trace](#cloud-trace)       | CloudTrail            | Monitor            | Trace               |
+
+### Cloud Eye
+
+#### Quick Links:
+- [Cloud Eye Homepage]()
+- [Cloud Eye General FAQs]()
+- [Cloud Eye Billing Details]()
+
+### Log Tank
+
+#### Quick Links:
+- [Log Tank Homepage]()
+- [Log Tank General FAQs]()
+- [Log Tank Billing Details]()
+
 ### IAM
 
+#### Quick Links:
+- [IAM Homepage]()
+- [IAM General FAQs]()
+- [IAM Billing Details]()
+
+### Cloud Trace
+
+#### Quick Links:
+- [Cloud Trace Homepage]()
+- [Cloud Trace General FAQs]()
+- [Cloud Trace Billing Details]()
+
 ## Database
-### RDS
+| Huawei Cloud                                          | AWS                           | AZURE                         | GCP                 |
+| ---------------------                                 | ---------------------         | -------------------           | ------------------- |
+| [RDS MySQL](#rds-mysql)                               | RDS MySQL                     | RDS MySQL                     | Cloud SQL           |
+| [RDS Postgre SQL](#rds-postgre-sql)                   | RDS Postgre SQL               | RDS Postgre SQL               | Cloud SQL           |
+| [RDS SQL Server](#rds-sql-server)                     | RDS SQL Server                | SQL Azure                     | Cloud SQL           |
+| [DDS](#dds---document-database-service)               | DynamoDB                      | Cosmos DB                     | Datastore           |
+| [Redis](#distributed-cache-service-for-redis)         | ElastiCache for Redis         | Cache for Redis               | Firestore           |
+| [Memcache](#distributed-cache-service-for-memcache)   | ElastiCache for Memcached     |                               | Firestore           |
+| [DRS - Data Replication Service](#drs---data-replication-service)                | Database Migration Service    | Database Migration Service    | Transfer Applicance |
+| [DAS - Data Admin Service](#das---data-admin-service) |                               |                               |                     | 
+
+### RDS MySQL
+
+#### Quick Links:
+- [RDS MySQL Homepage]()
+- [RDS MySQL General FAQs]()
+- [RDS MySQL Billing Details]()
+
+### RDS Postgre SQL
+
+#### Quick Links:
+- [RDS Postgre SQL Homepage]()
+- [RDS Postgre SQL FAQs]()
+- [RDS Postgre SQL Details]()
+
+### RDS SQL Server
+
+#### Quick Links:
+- [RDS SQL Server Homepage]()
+- [RDS SQL Server General FAQs]()
+- [RDS SQL Server Billing Details]()
+
+### DDS - Document Database Service
+
+#### Quick Links:
+- [DDS Homepage]()
+- [DDS General FAQs]()
+- [DDS Billing Details]()
+
+### Distributed Cache Service for Redis
+
+#### Quick Links:
+- [DCS - Redis Homepage]()
+- [DCS - Redis General FAQs]()
+- [DCS - Redis Billing Details]()
+
+### Distributed Cache Service for Memcache
+
+#### Quick Links:
+- [DCS - Memcache Homepage]()
+- [DCS - Memcache General FAQs]()
+- [DCS - Memcache Billing Details]()
+
+### DRS - Data Replication Service
+
+#### Quick Links:
+- [DRS Homepage]()
+- [DRS General FAQs]()
+- [DRS Billing Details]()
+
+### DAS - Data Admin Service
+
+#### Quick Links:
+- [DAS Homepage]()
+- [DAS General FAQs]()
+- [DAS Billing Details]()
 
 ## Security
+| Huawei Cloud                                                              | AWS                           | AZURE                         | GCP                  |
+| ---------------------                                                     | ---------------------         | -------------------           | -------------------  |
+| [Anti-DDoS](#anti-ddos)                                                   | Shield                        | DDoS Protection               | Cloud Armor          |
+| [Advanced Anti-DDoS](#anti-ddos)                                          | Shield                        | DDoS Protection               | Cloud Armor          |
+| [WAF - Web Application Firewall](#waf)                                    | WAF                           | Web App Firewall              | Security Platform    |
+| [VSS - Vulnerability Scan Service](#rds-sql-server)                       | Inspector                     | Security Center               | Web Security Scanner |
+| [HSS - Host Security Service](#dds---document-database-service)           | Inspector                     | Security Center               | Security Platform    |
+| [DEW - Data Encryption Workshop](#distributed-cache-service-for-redis)    | CloudHSM                      | Key Vault                     | KMS API              |
+| [SSL Certificate Manager](#distributed-cache-service-for-memcache)        | Certification Manager         | Key Vault                     | SSL Policies         |
+| [DBSS - Database Security Service](#drs---data-replication-service)       |                               |                               |                      |
+| [Situation Awareness](#das---data-admin-service) |                        | GuardDuty                     | Security Center               | Threat Detection     |  
+
 ### Anti-DDoS
 
+#### Quick Links:
+- [Anti-DDoS Homepage]()
+- [Anti-DDoS General FAQs]()
+- [Anti-DDoS Billing Details]()
+
+### Advanced Anti-DDoS
+
+#### Quick Links:
+- [Advanced Anti-DDoS Homepage]()
+- [Advanced Anti-DDoS General FAQs]()
+- [Advanced Anti-DDoS Billing Details]()
+
+### WAF - Web Application Firewall
+
+#### Quick Links:
+- [WAF - Web Application Firewall Homepage]()
+- [WAF - Web Application Firewall General FAQs]()
+- [WAF - Web Application Firewall Billing Details]()
+
+### VSS - Vulnerability Scan Service
+
+#### Quick Links:
+- [VSS - Vulnerability Scan Service Homepage]()
+- [VSS - Vulnerability Scan Service General FAQs]()
+- [VSS - Vulnerability Scan Service Billing Details]()
+
+### HSS - Host Security Service
+
+#### Quick Links:
+- [HSS - Host Security Service Homepage]()
+- [HSS - Host Security Service General FAQs]()
+- [HSS - Host Security Service Billing Details]()
+
+### DEW - Data Encryption Workshop
+
+#### Quick Links:
+- [DEW - Data Encryption Workshop Homepage]()
+- [DEW - Data Encryption Workshop General FAQs]()
+- [DEW - Data Encryption Workshop Billing Details]()
+
+### SSL Certificate Manager
+
+#### Quick Links:
+- [SSL Certificate Manager Homepage]()
+- [SSL Certificate Manager General FAQs]()
+- [SSL Certificate Manager Billing Details]()
+
+### DBSS - Database Security Service
+
+#### Quick Links:
+- [DBSS - Database Security Service Homepage]()
+- [DBSS - Database Security Service General FAQs]()
+- [DBSS - Database Security Service Billing Details]()
+
+### Situation Awareness
+
+#### Quick Links:
+- [Situation Awareness Homepage]()
+- [Situation Awareness General FAQs]()
+- [Situation Awareness Billing Details]()
+
+
+
 ## Application & Middleware
-### 
+| Huawei Cloud                                                                              | AWS                           | AZURE                         | GCP                 |
+| ---------------------                                                                     | ---------------------         | -------------------           | ------------------- |
+| [ServiceStage](#ServiceStage)                                                             | Elastic Beanstalk             | Service Fabric                | App Engine          |
+| [Software Repository for Container (SWR)](#swr---software-repository-for-container)       | Elastic Container Registry    | Container Registry            | Container Registry  |
+| [SMN - Software Repository for Container](#smn---simple-message-notification)             | SNS                           | Notification Hub              | Pub/Sub             |
+| [DMS - Distributed Message Service](#dms---distributed-message-service)                   | SQS                           | Queue Storage                 | Pub/Sub             |
+| [APM - Application Performance Management](#apm---application-performance-management)     | X-Ray                         | Monitor                       | Management Tools    |
+| [BCS - Blockchain Service](#bcs---blockchain-service)         | ElastiCache for Redis     | Blockchain                    | Blockchain                    |                     |
+| [AOM - Application Operations Management](#aom---application-operations-management)       |                               |                               |                     |
+| [CTPS - Cloud Performance Test Service](#ctps---cloud-performance-test-service)           |                               |                               |                     |
+
+### ServiceStage
+
+#### Quick Links:
+- [ServiceStage Homepage]()
+- [ServiceStage General FAQs]()
+- [ServiceStage Billing Details]()
+
+### SWR - Software Repository for Container
+
+#### Quick Links:
+- [SWR Homepage]()
+- [SWR General FAQs]()
+- [SWR Billing Details]()
+
+### SMN - Simple Message Notification
+
+#### Quick Links:
+- [SMN Homepage]()
+- [SMN General FAQs]()
+- [SMN Billing Details]()
+
+###  DMS - Distributed Message Service
+
+#### Quick Links:
+- [DMS Homepage]()
+- [DMS General FAQs]()
+- [DMS Billing Details]()
+
+###  APM - Application Performance Management
+
+#### Quick Links:
+- [APM Homepage]()
+- [APM General FAQs]()
+- [APM Billing Details]()
+
+###  BCS - Blockchain Service
+
+#### Quick Links:
+- [BCS Homepage]()
+- [BCS General FAQs]()
+- [BCS Billing Details]()
+
+###  AOM - Application Operations Management
+
+#### Quick Links:
+- [AOM Homepage]()
+- [AOM General FAQs]()
+- [AOM Billing Details]()
+
+###  [CTPS - Cloud Performance Test Service
+
+#### Quick Links:
+- [CTPS Homepage]()
+- [CTPS General FAQs]()
+- [CTPS Billing Details]()
 
 ## Big Data
 
