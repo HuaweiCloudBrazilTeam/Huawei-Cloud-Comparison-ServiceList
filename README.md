@@ -5,15 +5,15 @@ Comparison of Huawei Cloud services vs AWS vs Azure vs GCP
 
 ## Compute 
 
-| Huawei Cloud          | AWS                            | AZURE               | GCP                 |
-| --------------------- | ------------------------------ | ------------------- | ------------------- |
-| [ECS](#ecs---elastic-cloud-server)                   | EC2                            | VM                  | Compute Engine      |
-| [Batch](#batch)                 | Batch                          | Batch               | Batch               |
-| [IMS](#ims---image-management-service)                   | AMI                            | VM Images           | Images              |
-| [Auto Scaling](#auto-scaling)          | EC2 Auto Scaling               | AutoScale           | AutoScaler          |
-| [CCE](#cce---cloud-container-engine)                   | ECS  Elastic Container Service | Kubernetes Service  | Kubernetes Engines  |
-| [CCI](#cci---cloud-container-instance)                   | Fargate                        | Container Instances | Cloud Run           |
-| [FunctionGraph](#functiongraph)        | Lambda                         | Function Apps       | Cloud Functions     |
+| Huawei Cloud                                      | AWS                            | AZURE               | GCP                 |
+| ---------------------                             | ------------------------------ | ------------------- | ------------------- |
+| [ECS](#ecs---elastic-cloud-server)                | EC2                            | VM                  | Compute Engine      |
+| [Batch](#batch)                 | Batch           | Batch                          | Batch               |                     |
+| [IMS](#ims---image-management-service)            | AMI                            | VM Images           | Images              |
+| [Auto Scaling](#auto-scaling)                     | EC2 Auto Scaling               | AutoScale           | AutoScaler          |
+| [CCE](#cce---cloud-container-engine)              | ECS  Elastic Container Service | Kubernetes Service  | Kubernetes Engines  |
+| [CCI](#cci---cloud-container-instance)            | Fargate                        | Container Instances | Cloud Run           |
+| [FunctionGraph](#functiongraph)                   | Lambda                         | Function Apps       | Cloud Functions     |
 | [Bare Metal Server](#bms---bare-metal-server)     |                                |                     |                     |
 
 ### ECS - Elastic Cloud Server
@@ -77,14 +77,14 @@ O recurso de autoprovisionamento do BMS permite que você solicite um BMS sem a 
 
 
 ## Storage
-| Huawei Cloud                                 | AWS                   | AZURE               | GCP                 |
-| ---------------------                        | --------------------- | ------------------- | ------------------- |
-| [Elastic Volume Service](#evs---elastic-volume-service)                   | EBS                   | Disk Storage        | Persistent Disk     |
-| [Cloud Server Backup Service](#csbs---cloud-server-backup-service)              | Backup                | Backup              | Backup              |
-| [Volume Backup Service](#vbs---volume-backup-service)                    | Backup                | Backup              |                     |
-| [Object Storage Service](#obs---object-storage-service)                   | S3                    | Blob Storage        | Cloud Storage       |
-| [Scalable File Service](#sfs---scalable-file-service)                    | SFS                   | Files               | File Storage        |
-| [Data Express Service*](#des---data-express-service)                     | Snowball              | NA                  | NA                    |
+| Huawei Cloud                                                          | AWS                   | AZURE               | GCP                 |
+| ---------------------                                                 | --------------------- | ------------------- | ------------------- |
+| [Elastic Volume Service](#evs---elastic-volume-service)               | EBS                   | Disk Storage        | Persistent Disk     |
+| [Cloud Server Backup Service](#csbs---cloud-server-backup-service)    | Backup                | Backup              | Backup              |
+| [Volume Backup Service](#vbs---volume-backup-service)                 | Backup                | Backup              |                     |
+| [Object Storage Service](#obs---object-storage-service)               | S3                    | Blob Storage        | Cloud Storage       |
+| [Scalable File Service](#sfs---scalable-file-service)                 | SFS                   | Files               | File Storage        |
+| [Data Express Service*](#des---data-express-service)                  | Snowball              | NA                  | NA                  |
 
 ### EVS - Elastic Volume Service
 O Elastic Volume Service (EVS) oferece armazenamento em bloco escalável para servidores em nuvem. Com alta confiabilidade, alto desempenho e especificações ricas, os discos EVS podem ser usados para sistemas de arquivos distribuídos, ambientes de desenvolvimento e teste, aplicativos de DW e cenários de computação de alto desempenho (HPC) para atender a diversos requisitos de serviço. Servidores que o EVS suporta incluem Elastic Cloud Servers ([ECSs](#ecs---elastic-cloud-server)) e Bare Metal Servers ([BMSs](#bms---bare-metal-server)).
@@ -218,12 +218,12 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 - [API Gateway Billing Details]()
 
 ## Management
-| Huawei Cloud                      | AWS                   | AZURE              | GCP                 |
-| ---------------------             | --------------------- | -------------------| ------------------- |
-| [Cloud Eye](#cloud-eye)           | CloudWatch            | Monitor            | Monitoring          |
-| [Log Tank](#log-tank)             | CloudTrail            | Monitor            | Logging             |
-| [IAM](#iam)                       | IAM                   | Managed Identities | IAM                 |
-| [Cloud Trace](#cloud-trace)       | CloudTrail            | Monitor            | Trace               |
+| Huawei Cloud                        | AWS                   | AZURE              | GCP                 |
+| ---------------------               | --------------------- | -------------------| ------------------- |
+| [Cloud Eye](#cloud-eye)             | CloudWatch            | Monitor            | Monitoring          |
+| [Log Tank](#log-tank)               | CloudTrail            | Monitor            | Logging             |
+| [IAM](#iam)                         | IAM                   | Managed Identities | IAM                 |
+| [Cloud Trace Service](#cloud-trace) | CloudTrail            | Monitor            | Trace               |
 
 ### Cloud Eye
 
@@ -254,16 +254,16 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 - [Cloud Trace Billing Details]()
 
 ## Database
-| Huawei Cloud                                          | AWS                           | AZURE                         | GCP                 |
-| ---------------------                                 | ---------------------         | -------------------           | ------------------- |
-| [RDS MySQL](#rds-mysql)                               | RDS MySQL                     | RDS MySQL                     | Cloud SQL           |
-| [RDS Postgre SQL](#rds-postgre-sql)                   | RDS Postgre SQL               | RDS Postgre SQL               | Cloud SQL           |
-| [RDS SQL Server](#rds-sql-server)                     | RDS SQL Server                | SQL Azure                     | Cloud SQL           |
-| [DDS](#dds---document-database-service)               | DynamoDB                      | Cosmos DB                     | Datastore           |
-| [Redis](#distributed-cache-service-for-redis)         | ElastiCache for Redis         | Cache for Redis               | Firestore           |
-| [Memcache](#distributed-cache-service-for-memcache)   | ElastiCache for Memcached     |                               | Firestore           |
-| [DRS - Data Replication Service](#drs---data-replication-service)                | Database Migration Service    | Database Migration Service    | Transfer Applicance |
-| [DAS - Data Admin Service](#das---data-admin-service) |                               |                               |                     | 
+| Huawei Cloud                                                                  | AWS                           | AZURE                         | GCP                 |
+| ---------------------                                                         | ---------------------         | -------------------           | ------------------- |
+| [RDS MySQL](#rds-mysql)                                                       | RDS MySQL                     | RDS MySQL                     | Cloud SQL           |
+| [RDS Postgre SQL](#rds-postgre-sql)                                           | RDS Postgre SQL               | RDS Postgre SQL               | Cloud SQL           |
+| [RDS SQL Server](#rds-sql-server)                                             | RDS SQL Server                | SQL Azure                     | Cloud SQL           |
+| [DDS](#dds---document-database-service)                                       | DynamoDB                      | Cosmos DB                     | Datastore           |
+| [Redis](#distributed-cache-service-for-redis)                                 | ElastiCache for Redis         | Cache for Redis               | Firestore           |
+| [Memcache](#distributed-cache-service-for-memcache)                           | ElastiCache for Memcached     |                               | Firestore           |
+| [DRS - Data Replication Service](#drs---data-replication-service)             | Database Migration Service    | Database Migration Service    | Transfer Applicance |
+| [DAS - Data Admin Service](#das---data-admin-service)                         |                               |                               |                     | 
 
 ### RDS MySQL
 
@@ -468,6 +468,156 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 - [CTPS Billing Details]()
 
 ## Big Data
+| Huawei Cloud                                                      | AWS                   | AZURE              | GCP                 |
+| ---------------------                                             | --------------------- | -------------------| ------------------- |
+| [DIS - Data Ingestion Service](#dis---data-ingestion-service)     | CloudWatch            | Monitor            | Monitoring          |
+| [CDM - Cloud Data Migration](#cdm---cloud-data-migration)         | CloudTrail            | Monitor            | Logging             |
+| [DLF - Data Lake Factory](#dlf---data-lake-factory)               | IAM                   | Managed Identities | IAM                 |
+| [MRS - MapReduce Service](#mrs---mapreduce-service)               | CloudTrail            | Monitor            | Trace               |
+| [DWS - Data Warehouse Service](#dws---data-warehouse-service)     | IAM                   | Managed Identities | IAM                 |
+| [DLI - Data Lake Insight](#dli---data-lake-insight)               | CloudTrail            | Monitor            | Trace               |
+| [CloudTable Service](#cloudtable-service)                         | IAM                   | Managed Identities | IAM                 |
+| [CSS - Cloud Search Service](#css---cloud-search-service)         | CloudTrail            | Monitor            | Trace               |
+| [DLV - Data Lake Visualization](#dlv---data-lake-visualization)   | IAM                   | Managed Identities | IAM                 |
+
+
+### DIS - Data Ingestion Service
+
+#### Quick Links:
+- [DIS Homepage]()
+- [DIS General FAQs]()
+- [DIS Billing Details]()
+
+### CDM - Cloud Data Migration
+
+#### Quick Links:
+- [CDM Homepage]()
+- [CDM General FAQs]()
+- [CDM Billing Details]()
+
+### DLF - Data Lake Factory
+
+#### Quick Links:
+- [DLF Homepage]()
+- [DLF General FAQs]()
+- [DLF Billing Details]()
+
+### MRS - MapReduce Service
+
+#### Quick Links:
+- [MRS Homepage]()
+- [MRS General FAQs]()
+- [MRS Billing Details]()
+
+### DWS - Data Warehouse Service
+
+#### Quick Links:
+- [DWS Homepage]()
+- [DWS General FAQs]()
+- [DWS Billing Details]()
+
+### DLI - Data Lake Insight
+
+#### Quick Links:
+- [DLI Homepage]()
+- [DLI General FAQs]()
+- [DLI Billing Details]()
+
+### CloudTable Service
+
+#### Quick Links:
+- [CloudTable Homepage]()
+- [CloudTable General FAQs]()
+- [CloudTable Billing Details]()
+
+### CSS - Cloud Search Service
+
+#### Quick Links:
+- [CSS Homepage]()
+- [CSS General FAQs]()
+- [CSS Billing Details]()
+
+### DLV - Data Lake Visualization
+
+#### Quick Links:
+- [DLV Homepage]()
+- [DLV General FAQs]()
+- [DLV Billing Details]()
+
+
+
 
 ## AI & Machine Learning
+| Huawei Cloud                                                                      | AWS                   | AZURE              | GCP                 |
+| ---------------------                                                             | --------------------- | -------------------| ------------------- |
+| [ModelArts](#modelarts)                                                           | SageMaker             | Machine Learning   | Machine Learning    |
+| [OCR - Optical Character Recognition](#ocr---optical-character-recognition)       | Textract              | Cognitive          | Vision API          |
+| [Image Recognition](#image-recognition)                                           | Rekognition           | Cognitive          | Vision API          |
+| [FRS - Face Recognition Service](#frs---face-recognition-service)                 | Rekognition           | Cognitive          | Vision API          |
+| [SIS - Speech Interaction Service](#sis---speech-interaction-service)             | Transcribe            | Cognitive          | Speech API          |
+| [NLP - Natural Language Processing](#nlp---natural-language-processing)           | Comprehend            | Cognitive          | Natual Language API |
+| [SIS - Speech Interaction Service - Translate](#sis---speech-interaction-service) | Translate             | Cognitive          | Translation API     |
+| [SIS - Speech Interaction Service - TTS](#sis---speech-interaction-service)       | Polly                 | Cognitive          | Speech API          |
+| [CBS - Conversational Bot Service](#cbs---conversational-bot-service)             | Lex                   | Bot                | Dialog Flow         |
 
+### ModelArts
+
+#### Quick Links:
+- [ModelArts Homepage]()
+- [ModelArts General FAQs]()
+- [ModelArts Billing Details]()
+
+### OCR - Optical Character Recognition
+
+#### Quick Links:
+- [OCR Homepage]()
+- [OCR General FAQs]()
+- [OCR Billing Details]()
+
+### Image Recognition
+
+#### Quick Links:
+- [Image Homepage]()
+- [Image General FAQs]()
+- [Image Billing Details]()
+
+### FRS - Face Recognition Service
+
+#### Quick Links:
+- [FRS Homepage]()
+- [FRS General FAQs]()
+- [FRS Billing Details]()
+
+
+### SIS - Speech Interaction Service
+
+O Serviço Speech Interaction Service (SIS) fornece um modo de interação homem-máquina por APIs (Application Programming Interfaces). Você pode obter o resultado da interação da fala acessando em tempo real e chamando a API. O SIS consiste nos seguintes sub-serviços:
+
+* Reconhecimento Automático de Fala (ASR): converte gravações de áudio em texto.
+
+* ASR Customization (ASRC) aproveita a tecnologia de "deep learning" para otimizar o reconhecimento de fala em campos específicos e permite definir modelos de idioma. O ASRC fornece as funções de transcrição de sentenças e transcrição de áudio.
+
+* Real-Time ASR (RASR): converte fluxos de áudio contínuos em texto em tempo real, permitindo um reconhecimento de fala mais rápido.
+
+* Text To Speech (TTS): converte texto em vozes realistas.
+
+* A personalização de texto em fala (TTSC) utiliza tecnologias avançadas de fala da Huawei, em combinação com algoritmos de depp learning, para converter texto em fala natural e suave.
+
+#### Quick Links:
+- [SIS Homepage]()
+- [SIS General FAQs]()
+- [SIS Billing Details]()
+
+### NLP - Natural Language Processing
+
+#### Quick Links:
+- [NLP Homepage]()
+- [NLP General FAQs]()
+- [NLP Billing Details]()
+
+### CBS - Conversational Bot Service
+
+#### Quick Links:
+- [CBS Homepage]()
+- [CBS General FAQs]()
+- [CBS Billing Details]()
