@@ -547,7 +547,7 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 
 
 
-## AI & Machine Learning
+## AI & Machine Learning (Enterprise Intelligence) 
 | Huawei Cloud                                                                      | AWS                   | AZURE              | GCP                 |
 | ---------------------                                                             | --------------------- | -------------------| ------------------- |
 | [ModelArts](#modelarts)                                                           | SageMaker             | Machine Learning   | Machine Learning    |
@@ -559,6 +559,8 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 | [SIS - Speech Interaction Service - Translate](#sis---speech-interaction-service) | Translate             | Cognitive          | Translation API     |
 | [SIS - Speech Interaction Service - TTS](#sis---speech-interaction-service)       | Polly                 | Cognitive          | Speech API          |
 | [CBS - Conversational Bot Service](#cbs---conversational-bot-service)             | Lex                   | Bot                | Dialog Flow         |
+
+* [EI Experience Center](https://www.huaweicloud.com/en-us/ei/experiencespace.html)
 
 ### ModelArts
 
