@@ -331,7 +331,7 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 | [DEW - Data Encryption Workshop](#distributed-cache-service-for-redis)    | CloudHSM                      | Key Vault                     | KMS API              |
 | [SSL Certificate Manager](#distributed-cache-service-for-memcache)        | Certification Manager         | Key Vault                     | SSL Policies         |
 | [DBSS - Database Security Service](#drs---data-replication-service)       |                               |                               |                      |
-| [Situation Awareness](#das---data-admin-service) |                        | GuardDuty                     | Security Center               | Threat Detection     |  
+| [Situation Awareness](#das---data-admin-service)                          | GuardDuty                     | Security Center               | Threat Detection     |  
 
 ### Anti-DDoS
 
@@ -403,7 +403,7 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 | ---------------------                                                                     | ---------------------         | -------------------           | ------------------- |
 | [ServiceStage](#ServiceStage)                                                             | Elastic Beanstalk             | Service Fabric                | App Engine          |
 | [Software Repository for Container (SWR)](#swr---software-repository-for-container)       | Elastic Container Registry    | Container Registry            | Container Registry  |
-| [SMN - Software Repository for Container](#smn---simple-message-notification)             | SNS                           | Notification Hub              | Pub/Sub             |
+| [SMN - Simple Message Notification](#smn---simple-message-notification)             | SNS                           | Notification Hub              | Pub/Sub             |
 | [DMS - Distributed Message Service](#dms---distributed-message-service)                   | SQS                           | Queue Storage                 | Pub/Sub             |
 | [APM - Application Performance Management](#apm---application-performance-management)     | X-Ray                         | Monitor                       | Management Tools    |
 | [BCS - Blockchain Service](#bcs---blockchain-service)         | ElastiCache for Redis     | Blockchain                    | Blockchain                    |                     |
@@ -459,7 +459,7 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 - [AOM General FAQs]()
 - [AOM Billing Details]()
 
-###  [CTPS - Cloud Performance Test Service
+###  CTPS - Cloud Performance Test Service
 
 #### Quick Links:
 - [CTPS Homepage]()
@@ -469,15 +469,15 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 ## Big Data
 | Huawei Cloud                                                      | AWS                   | AZURE              | GCP                 |
 | ---------------------                                             | --------------------- | -------------------| ------------------- |
-| [DIS - Data Ingestion Service](#dis---data-ingestion-service)     | CloudWatch            | Monitor            | Monitoring          |
-| [CDM - Cloud Data Migration](#cdm---cloud-data-migration)         | CloudTrail            | Monitor            | Logging             |
-| [DLF - Data Lake Factory](#dlf---data-lake-factory)               | IAM                   | Managed Identities | IAM                 |
-| [MRS - MapReduce Service](#mrs---mapreduce-service)               | CloudTrail            | Monitor            | Trace               |
-| [DWS - Data Warehouse Service](#dws---data-warehouse-service)     | IAM                   | Managed Identities | IAM                 |
-| [DLI - Data Lake Insight](#dli---data-lake-insight)               | CloudTrail            | Monitor            | Trace               |
-| [CloudTable Service](#cloudtable-service)                         | IAM                   | Managed Identities | IAM                 |
-| [CSS - Cloud Search Service](#css---cloud-search-service)         | CloudTrail            | Monitor            | Trace               |
-| [DLV - Data Lake Visualization](#dlv---data-lake-visualization)   | IAM                   | Managed Identities | IAM                 |
+| [DIS - Data Ingestion Service](#dis---data-ingestion-service)     | Kinesis               | Event Hubs         | DataFlow            |
+| [CDM - Cloud Data Migration](#cdm---cloud-data-migration)         | DMS                   | DMS                | DataFlow            |
+| [DLF - Data Lake Factory](#dlf---data-lake-factory)               | Data Pipeline         | Data Factory       | Composer            |
+| [MRS - MapReduce Service](#mrs---mapreduce-service)               | EMR                   | HDInsight          | Dataproc            |
+| [DWS - Data Warehouse Service](#dws---data-warehouse-service)     | Redshift              | Synapse Analytics  | Bigquery            |
+| [DLI - Data Lake Insight](#dli---data-lake-insight)               | Athena                | Stream Analytics   | Bigquery            |
+| [CloudTable Service](#cloudtable-service)                         | DynamoDB              | Cosmos DB          | Bigtable            |
+| [CSS - Cloud Search Service](#css---cloud-search-service)         | CloudSearch           | Cognitive Search   | Cloud Search        |
+| [DLV - Data Lake Visualization](#dlv---data-lake-visualization)   | QuickSight            | Power BI           | Data Studio         |
 
 
 ### DIS - Data Ingestion Service
