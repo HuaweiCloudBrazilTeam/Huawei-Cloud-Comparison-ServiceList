@@ -1,19 +1,19 @@
 
 # Huawei Cloud Comparison
 
-Comparison of Huawei Cloud services vs AWS vs Azure vs GCP
+Comparação dos serviços da Huawei Cloud vs AWS vs Azure vs GCP vs Oracle
 
 ## Compute 
-| Huawei Cloud                                      | AWS                            | AZURE               | GCP                 |
-| ---------------------                             | ------------------------------ | ------------------- | ------------------- |
-| [ECS](#ecs---elastic-cloud-server)                | EC2                            | VM                  | Compute Engine      |
-| [Batch](#batch)                 | Batch           | Batch                          | Batch               |                     |
-| [IMS](#ims---image-management-service)            | AMI                            | VM Images           | Images              |
-| [Auto Scaling](#auto-scaling)                     | EC2 Auto Scaling               | AutoScale           | AutoScaler          |
-| [CCE](#cce---cloud-container-engine)              | ECS  Elastic Container Service | Kubernetes Service  | Kubernetes Engines  |
-| [CCI](#cci---cloud-container-instance)            | Fargate                        | Container Instances | Cloud Run           |
-| [FunctionGraph](#functiongraph)                   | Lambda                         | Function Apps       | Cloud Functions     |
-| [Bare Metal Server](#bms---bare-metal-server)     |                                |                     |                     |
+| Huawei Cloud                                      | AWS                            | AZURE               | GCP                 | Oracle                          |
+| ---------------------                             | ------------------------------ | ------------------- | ------------------- | -------------------             |
+| [ECS](#ecs---elastic-cloud-server)                | EC2                            | VM                  | Compute Engine      | Virtual Machines                |
+| [Batch](#batch)                 | Batch           | Batch                          | Batch               |                     |                                 |
+| [IMS](#ims---image-management-service)            | AMI                            | VM Images           | Images              | Images                          |
+| [Auto Scaling](#auto-scaling)                     | EC2 Auto Scaling               | AutoScale           | AutoScaler          | Auto Scaling                    |
+| [CCE](#cce---cloud-container-engine)              | ECS  Elastic Container Service | Kubernetes Service  | Kubernetes Engines  | Container Engine for Kubernetes |
+| [CCI](#cci---cloud-container-instance)            | Fargate                        | Container Instances | Cloud Run           |                                 |
+| [FunctionGraph](#functiongraph)                   | Lambda                         | Function Apps       | Cloud Functions     | Functions                       |
+| [Bare Metal Server](#bms---bare-metal-server)     |                                |                     |                     | Bare Metal                      |
 
 ### ECS - Elastic Cloud Server
 Um Elastic Cloud Server (ECS) é um servidor em nuvem que fornece recursos de computação escaláveis e sob demanda para aplicativos seguros, flexíveis e eficientes.
@@ -76,14 +76,14 @@ O recurso de autoprovisionamento do BMS permite que você solicite um BMS sem a 
 
 
 ## Storage
-| Huawei Cloud                                                          | AWS                   | AZURE               | GCP                 |
-| ---------------------                                                 | --------------------- | ------------------- | ------------------- |
-| [Elastic Volume Service](#evs---elastic-volume-service)               | EBS                   | Disk Storage        | Persistent Disk     |
-| [Cloud Server Backup Service](#csbs---cloud-server-backup-service)    | Backup                | Backup              | Backup              |
-| [Volume Backup Service](#vbs---volume-backup-service)                 | Backup                | Backup              |                     |
-| [Object Storage Service](#obs---object-storage-service)               | S3                    | Blob Storage        | Cloud Storage       |
-| [Scalable File Service](#sfs---scalable-file-service)                 | SFS                   | Files               | File Storage        |
-| [Data Express Service*](#des---data-express-service)                  | Snowball              | NA                  | NA                  |
+| Huawei Cloud                                                          | AWS                   | AZURE               | GCP                 | Oracle              |
+| ---------------------                                                 | --------------------- | ------------------- | ------------------- | ------------------- |
+| [Elastic Volume Service](#evs---elastic-volume-service)               | EBS                   | Disk Storage        | Persistent Disk     | Block Volumes       |
+| [Cloud Server Backup Service](#csbs---cloud-server-backup-service)    | Backup                | Backup              | Backup              | Backup              |
+| [Volume Backup Service](#vbs---volume-backup-service)                 | Backup                | Backup              |                     | Snapshot            |
+| [Object Storage Service](#obs---object-storage-service)               | S3                    | Blob Storage        | Cloud Storage       | Object Storage      |
+| [Scalable File Service](#sfs---scalable-file-service)                 | SFS                   | Files               | File Storage        | File Storage        |
+| [Data Express Service*](#des---data-express-service)                  | Snowball              | NA                  | NA                  | NA                  |
 
 ### EVS - Elastic Volume Service
 O Elastic Volume Service (EVS) oferece armazenamento em bloco escalável para servidores em nuvem. Com alta confiabilidade, alto desempenho e especificações ricas, os discos EVS podem ser usados para sistemas de arquivos distribuídos, ambientes de desenvolvimento e teste, aplicativos de DW e cenários de computação de alto desempenho (HPC) para atender a diversos requisitos de serviço. Servidores que o EVS suporta incluem Elastic Cloud Servers ([ECSs](#ecs---elastic-cloud-server)) e Bare Metal Servers ([BMSs](#bms---bare-metal-server)).
@@ -149,72 +149,76 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 
 
 ## Network
-| Huawei Cloud                                              | AWS                   | AZURE                     | GCP                 |
-| ---------------------                                     | --------------------- | -------------------       | ------------------- |
-| [Virtual Private Cloud](#vpc---virtual-private-cloud)     | VPC                   | Virtual Network           | Virtual Network     |
-| [Elastic Load Balance](#elb---elastic-load-balance)       | ELB                   | Load Balancer             | Load Balancing      |
-| [Virtual Private Network](#vpn---virtual-private-network) | VPN                   | Connections               | VPN                 |
-| [Direct Connect](#direct-connect)                         | Direct Connect        | ExpressRoute              | Interconnect        |
-| [DNS](#dns)                                               | Route 53              | DNS                       | DNS                 |
-| [NAT Gateway](#nat-gateway)                               | NAT Gateway           | Virtual Network Gateway   |                     |
-| [CDN](#cdn)                                               | CloudFront            | CDN                       | Cloud CDN           |
-| [API Gateway](#api-gateway)                               | API Gateway           |                           |                     |
+| Huawei Cloud                                              | AWS                   | AZURE                     | GCP                 | Oracle                |
+| ---------------------                                     | --------------------- | -------------------       | ------------------- |-------------------    |
+| [Virtual Private Cloud](#vpc---virtual-private-cloud)     | VPC                   | Virtual Network           | Virtual Network     | Virtual Cloud Network |
+| [Elastic Load Balance](#elb---elastic-load-balance)       | ELB                   | Load Balancer             | Load Balancing      | Load Balancing        |
+| [Virtual Private Network](#vpn---virtual-private-network) | VPN                   | Connections               | VPN                 | VPN                   |
+| [Direct Connect](#direct-connect)                         | Direct Connect        | ExpressRoute              | Interconnect        | FastConnect           |
+| [DNS](#dns)                                               | Route 53              | DNS                       | DNS                 | DNS                   |
+| [NAT Gateway](#nat-gateway)                               | NAT Gateway           | Virtual Network Gateway   |                     | NAT Gateway           |
+| [CDN](#cdn)                                               | CloudFront            | CDN                       | Cloud CDN           |                       |
+| [API Gateway](#api-gateway)                               | API Gateway           |                           |                     | API Gateway           |
 
 ### VPC - Virtual Private Cloud
+O Virtual Private Cloud (VPC) é um serviço que possibilita o provisionamento de redes virtuais configuráveis, administráveis e isoladas lógicamente para servidores na nuvem, simplificando a implatanção da rede e melhorando a segurança dos recursos no sistema. Servidores na nuvem podem ser Elastic Cloud Server (ECS) ou Bare Metal Servers(BMS).
+É possível selecionar a abrangência do endereço de IP, criar múltiplas sub-redes, configurar tabela de rotas e gateways, e customizar os grupos de segurança na sua VPC. Com isso, você administra, altera redes internas e ainda modifica as configurações de maneira flexível e segura. Também é permitido customizar as regras de acesso e firewalls para controlar o acesso aos servidores na nuvem em um grupo de segurança e entre vários outros grupos para otimizar a segurança dos servidores na sub-rede.
 
 #### Quick Links:
-- [VPC Homepage]()
-- [VPC General FAQs]()
-- [VPC Billing Details]()
+- [VPC Homepage](https://support.huaweicloud.com/intl/en-us/vpc/index.html)
+- [VPC General FAQs](https://support.huaweicloud.com/intl/en-us/vpc_faq/faq_vpc.html)
+- [VPC Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-vpc/vpc_price_0001.html)
 
 ### ELB - Elastic Load Balance
+Elastic Load Balance (ELB) é um serviço que distribui automaticamente o tráfego de fora para dentro da rede entre múltiplos servidores internos baseado em políticas de encaminhamento pré-definidas. O ELB vai expandir a capacidade de gerenciamento de acesso às aplicações e sistemas por meio da distribuição de tráfego e alcançar um nível mais alto de desempenho e tolerância a falhas, eliminando o ponto único de falha (SPOFs).
 
 #### Quick Links:
-- [ELB Homepage]()
-- [ELB General FAQs]()
-- [ELB Billing Details]()
+- [ELB Homepage](https://support.huaweicloud.com/intl/en-us/elb/index.html)
+- [ELB General FAQs](https://support.huaweicloud.com/intl/en-us/elb_faq/elb_faq_0200.html)
+- [ELB Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-elb/elb_pro_0014.html)
 
 ### VPN - Virtual Private Network
+Uma Virtual Private Network é um túnel de comunicação encriptado e seguro estabelecido entre uma rede privada remota e a Virtual Private Cloud (VPC) na nuvem. Esse túnel cumpre com todos os requisitos padranizados pela indústria e extende, por exemplo, um data center privado para a VPC na nuvem.
 
 #### Quick Links:
-- [VPN Homepage]()
-- [VPN General FAQs]()
-- [VPN Billing Details]()
+- [VPN Homepage](https://support.huaweicloud.com/intl/en-us/vpn/index.html)
+- [VPN General FAQs](https://support.huaweicloud.com/intl/en-us/vpn_faq/vpn_08_0100.html)
+- [VPN Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-vpn/vpn_01_0004.html)
 
 ### Direct Connect
 
 #### Quick Links:
-- [Direct Connect Homepage]()
-- [Direct Connect General FAQs]()
-- [Direct Connect Billing Details]()
+- [Direct Connect Homepage](https://support.huaweicloud.com/intl/en-us/dc/index.html)
+- [Direct Connect General FAQs](https://support.huaweicloud.com/intl/en-us/dc_faq/dc_07_0100.html)
+- [Direct Connect Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-dc/dc_01_0006.html)
 
 ### DNS
 
 #### Quick Links:
-- [DNS Homepage]()
-- [DNS General FAQs]()
-- [DNS Billing Details]()
+- [DNS Homepage](https://support.huaweicloud.com/intl/en-us/dns/index.html)
+- [DNS General FAQs](https://support.huaweicloud.com/intl/en-us/dns_faq/dns_faq_1402.html)
+- [DNS Billing Details](https://support.huaweicloud.com/intl/en-us/dns_faq/dns_faq_006.html)
 
 ### NAT Gateway
 
 #### Quick Links:
-- [NAT Gateway Homepage]()
-- [NAT Gateway General FAQs]()
-- [NAT Gateway Billing Details]()
+- [NAT Gateway Homepage](https://support.huaweicloud.com/intl/en-us/natgateway/index.html)
+- [NAT Gateway General FAQs](https://support.huaweicloud.com/intl/en-us/natgateway_faq/nat_faq_0003.html)
+- [NAT Gateway Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-natgateway/nat_price_0001.html)
 
 ### CDN
 
 #### Quick Links:
-- [CDN Homepage]()
-- [CDN General FAQs]()
-- [CDN Billing Details]()
+- [CDN Homepage](https://support.huaweicloud.com/intl/en-us/cdn/index.html)
+- [CDN General FAQs](https://support.huaweicloud.com/intl/en-us/cdn_faq/cdn_faq_1.html)
+- [CDN Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-cdn/cdn_01_0104.html)
 
 ### API Gateway
 
 #### Quick Links:
-- [API Gateway Homepage]()
-- [API Gateway General FAQs]()
-- [API Gateway Billing Details]()
+- [API Gateway Homepage](https://support.huaweicloud.com/intl/en-us/apig/index.html)
+- [API Gateway General FAQs](https://support.huaweicloud.com/intl/en-us/apig_faq/index.html)
+- [API Gateway Billing Details](https://support.huaweicloud.com/intl/en-us/price-apig/en-us_topic_0112975574.html)
 
 ## Management
 | Huawei Cloud                        | AWS                   | AZURE              | GCP                 |
