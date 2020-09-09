@@ -161,8 +161,9 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 | [API Gateway](#api-gateway)                               | API Gateway           |                           |                     | API Gateway           |
 
 ### VPC - Virtual Private Cloud
-O Virtual Private Cloud (VPC) é um serviço que possibilita o provisionamento de redes virtuais configuráveis, administráveis e isoladas lógicamente para servidores na nuvem, simplificando a implatanção da rede e melhorando a segurança dos recursos no sistema. Servidores na nuvem podem ser Elastic Cloud Server (ECS) ou Bare Metal Servers(BMS).
+O Virtual Private Cloud (VPC) é um serviço que possibilita o provisionamento de redes virtuais configuráveis, administráveis e isoladas lógicamente para servidores na nuvem, simplificando a implantação da rede e melhorando a segurança dos recursos no sistema. Os Servidores na nuvem podem ser Elastic Cloud Server (ECS) ou Bare Metal Servers(BMS).
 É possível selecionar a abrangência do endereço de IP, criar múltiplas sub-redes, configurar tabela de rotas e gateways, e customizar os grupos de segurança na sua VPC. Com isso, você administra, altera redes internas e ainda modifica as configurações de maneira flexível e segura. Também é permitido customizar as regras de acesso e firewalls para controlar o acesso aos servidores na nuvem em um grupo de segurança e entre vários outros grupos para otimizar a segurança dos servidores na sub-rede.
+![Figure 1](img/vpc.png?raw=true "VPC example")
 
 #### Quick Links:
 - [VPC Homepage](https://support.huaweicloud.com/intl/en-us/vpc/index.html)
@@ -178,7 +179,7 @@ Elastic Load Balance (ELB) é um serviço que distribui automaticamente o tráfe
 - [ELB Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-elb/elb_pro_0014.html)
 
 ### VPN - Virtual Private Network
-Uma Virtual Private Network é um túnel de comunicação encriptado e seguro estabelecido entre uma rede privada remota e a Virtual Private Cloud (VPC) na nuvem. Esse túnel cumpre com todos os requisitos padranizados pela indústria e extende, por exemplo, um data center privado para a VPC na nuvem.
+Um Virtual Private Network é um túnel de comunicação encriptado e seguro estabelecido entre uma rede privada remota e a Virtual Private Cloud (VPC) na nuvem. Esse túnel cumpre com todos os requisitos padranizados pela indústria e extende, por exemplo, um data center privado para a VPC na nuvem.
 
 #### Quick Links:
 - [VPN Homepage](https://support.huaweicloud.com/intl/en-us/vpn/index.html)
