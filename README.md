@@ -163,6 +163,7 @@ Maiores informações sobre o Huawei *Teleport appliance*:
 ### VPC - Virtual Private Cloud
 O Virtual Private Cloud (VPC) é um serviço que possibilita o provisionamento de redes virtuais configuráveis, administráveis e isoladas lógicamente para servidores na nuvem, simplificando a implantação da rede e melhorando a segurança dos recursos no sistema. Os Servidores na nuvem podem ser Elastic Cloud Server (ECS) ou Bare Metal Servers(BMS).
 É possível selecionar a abrangência do endereço de IP, criar múltiplas sub-redes, configurar tabela de rotas e gateways, e customizar os grupos de segurança na sua VPC. Com isso, você administra, altera redes internas e ainda modifica as configurações de maneira flexível e segura. Também é permitido customizar as regras de acesso e firewalls para controlar o acesso aos servidores na nuvem em um grupo de segurança e entre vários outros grupos para otimizar a segurança dos servidores na sub-rede.
+
 ![Figure 1](img/vpc.png?raw=true "VPC example")
 
 #### Quick Links:
@@ -173,6 +174,8 @@ O Virtual Private Cloud (VPC) é um serviço que possibilita o provisionamento d
 ### ELB - Elastic Load Balance
 Elastic Load Balance (ELB) é um serviço que distribui automaticamente o tráfego de fora para dentro da rede entre múltiplos servidores internos baseado em políticas de encaminhamento pré-definidas. O ELB vai expandir a capacidade de gerenciamento de acesso às aplicações e sistemas por meio da distribuição de tráfego e alcançar um nível mais alto de desempenho e tolerância a falhas, eliminando o ponto único de falha (SPOFs).
 
+![Figure 1](img/elb.png?raw=true "ELB example")
+
 #### Quick Links:
 - [ELB Homepage](https://support.huaweicloud.com/intl/en-us/elb/index.html)
 - [ELB General FAQs](https://support.huaweicloud.com/intl/en-us/elb_faq/elb_faq_0200.html)
@@ -181,12 +184,17 @@ Elastic Load Balance (ELB) é um serviço que distribui automaticamente o tráfe
 ### VPN - Virtual Private Network
 Um Virtual Private Network é um túnel de comunicação encriptado e seguro estabelecido entre uma rede privada remota e a Virtual Private Cloud (VPC) na nuvem. Esse túnel cumpre com todos os requisitos padranizados pela indústria e extende, por exemplo, um data center privado para a VPC na nuvem.
 
+![Figure 1](img/vpn2.png?raw=true "VPN example")
+
 #### Quick Links:
 - [VPN Homepage](https://support.huaweicloud.com/intl/en-us/vpn/index.html)
 - [VPN General FAQs](https://support.huaweicloud.com/intl/en-us/vpn_faq/vpn_08_0100.html)
 - [VPN Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-vpn/vpn_01_0004.html)
 
 ### Direct Connect
+É um serviço de conexão de rede dedicada entre o Data Center e a rede virtual privada (VPC) na Huawei Cloud.
+
+![Figure 1](img/dc.png?raw=true "Direct Connect example")
 
 #### Quick Links:
 - [Direct Connect Homepage](https://support.huaweicloud.com/intl/en-us/dc/index.html)
