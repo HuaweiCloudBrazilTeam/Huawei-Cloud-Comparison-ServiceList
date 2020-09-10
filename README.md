@@ -222,6 +222,9 @@ O Network Address Translation Gateway (NAT Gateway) é um serviço que possibili
 - [NAT Gateway Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-natgateway/nat_price_0001.html)
 
 ### CDN
+O Content Delivery Network DN é um serviço de redirecionamento de conteúdo para reduzir congestionamento de rede, que acelera a distribuição de conteúdo para servidores de borda, trazendo mais performance na abertura de websites.
+
+![Figure 1](img/cdn.png?raw=true "CDN example")
 
 #### Quick Links:
 - [CDN Homepage](https://support.huaweicloud.com/intl/en-us/cdn/index.html)
@@ -229,6 +232,10 @@ O Network Address Translation Gateway (NAT Gateway) é um serviço que possibili
 - [CDN Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-cdn/cdn_01_0104.html)
 
 ### API Gateway
+
+O API Gateway é um serviço de hospedagem de API de alta performance, alta disponibilidade e segurança que ajuda empresas a construir, administrar e implantar APIs em qualquer escala. Com alguns cliques, é possível implementar integrações de sistemas internos com o mínimo de custo e risco.
+
+![Figure 1](img/api.png?raw=true "API Gateway example")
 
 #### Quick Links:
 - [API Gateway Homepage](https://support.huaweicloud.com/intl/en-us/apig/index.html)
