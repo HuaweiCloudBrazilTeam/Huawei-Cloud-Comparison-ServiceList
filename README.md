@@ -202,6 +202,9 @@ Um Virtual Private Network é um túnel de comunicação encriptado e seguro est
 - [Direct Connect Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-dc/dc_01_0006.html)
 
 ### DNS
+O Domain Name Service (DNS) é um serviço de DNS autoritativo gerenciado que traduz nomes de domínio (www.example.com) em endereços de IP (192.168.X.X), direcionando o tráfego da Internet para aplicações em seus respectivos servidores.
+
+![Figure 1](img/dns.png?raw=true "DNS example")
 
 #### Quick Links:
 - [DNS Homepage](https://support.huaweicloud.com/intl/en-us/dns/index.html)
@@ -209,6 +212,9 @@ Um Virtual Private Network é um túnel de comunicação encriptado e seguro est
 - [DNS Billing Details](https://support.huaweicloud.com/intl/en-us/dns_faq/dns_faq_006.html)
 
 ### NAT Gateway
+O Network Address Translation Gateway (NAT Gateway) é um serviço que possibilita a conexão entre a VPC e a Internet para múltiplus servidores, podendo ser distribuido entre várias sub-redes e zonas de disponibilidades. Tanto os dados de saída quanto os de entrada podem ser devidamente configurados através de regras SNAT (saída da rede) e DNAT (entrada na rede).
+
+![Figure 1](img/natgw.png?raw=true "NAT Gateway example")
 
 #### Quick Links:
 - [NAT Gateway Homepage](https://support.huaweicloud.com/intl/en-us/natgateway/index.html)
