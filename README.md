@@ -16,7 +16,8 @@ Comparação dos serviços da Huawei Cloud vs AWS vs Azure vs GCP vs Oracle
 | [Bare Metal Server](#bms---bare-metal-server)     |                                |                     |                     | Bare Metal                      |
 
 ### ECS - Elastic Cloud Server
-Um Elastic Cloud Server (ECS) é um servidor em nuvem que fornece recursos de computação escaláveis e sob demanda para aplicativos seguros, flexíveis e eficientes.
+Um Elastic Cloud Server (ECS) é um servidor em nuvem que fornece recursos de computação escaláveis e sob demanda para aplicativos seguros, flexíveis e eficientes. Consiste basicamente de vCPUs (Processador virtual), memória e disco, podendo ser usado exatamente como um computador local ou servidor físico.
+O ECS está disponível em vários tipos para os mais variados cenários, com aplicações que exigem alto poder de processamento, alta quantidade memória RAM, GPU integrada ou alta quantidade de IOPS para armazenamento utilizando NVMe acoplado físicamente ao servidor.
 #### Links:
 - [ECS Homepage](https://support.huaweicloud.com/intl/en-us/ecs/index.html)
 - [ECS General FAQs](https://support.huaweicloud.com/en-us/ecs_faq/ecs_faq_0001.html)
@@ -192,7 +193,7 @@ Um Virtual Private Network é um túnel de comunicação encriptado e seguro est
 - [VPN Billing Details](https://support.huaweicloud.com/intl/en-us/productdesc-vpn/vpn_01_0004.html)
 
 ### Direct Connect
-É um serviço de conexão de rede dedicada entre o Data Center e a rede virtual privada (VPC) na Huawei Cloud.
+É um serviço de conexão de rede dedicada entre o Data Center e a rede virtual privada (VPC) na Huawei Cloud. Com a largura de banda suportando até 10 Gbit/s de conexão, garante um alto nível de segurança com um canal isolado de outras conexões, baixa latência para uma excelente experiência do cliente, possibilitando a construção de um cenário híbrido, escalável e flexível.
 
 ![Figure 1](img/dc.png?raw=true "Direct Connect example")
 
@@ -429,7 +430,7 @@ O API Gateway é um serviço de hospedagem de API de alta performance, alta disp
 | ---------------------                                                                     | ---------------------         | -------------------           | ------------------- |
 | [ServiceStage](#ServiceStage)                                                             | Elastic Beanstalk             | Service Fabric                | App Engine          |
 | [Software Repository for Container (SWR)](#swr---software-repository-for-container)       | Elastic Container Registry    | Container Registry            | Container Registry  |
-| [SMN - Simple Message Notification](#smn---simple-message-notification)             | SNS                           | Notification Hub              | Pub/Sub             |
+| [SMN - Simple Message Notification](#smn---simple-message-notification)                   | SNS                           | Notification Hub              | Pub/Sub             |
 | [DMS - Distributed Message Service](#dms---distributed-message-service)                   | SQS                           | Queue Storage                 | Pub/Sub             |
 | [APM - Application Performance Management](#apm---application-performance-management)     | X-Ray                         | Monitor                       | Management Tools    |
 | [BCS - Blockchain Service](#bcs---blockchain-service)         | ElastiCache for Redis     | Blockchain                    | Blockchain                    |                     |
