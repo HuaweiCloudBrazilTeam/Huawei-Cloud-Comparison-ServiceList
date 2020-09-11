@@ -17,7 +17,7 @@ Comparação dos serviços da Huawei Cloud vs AWS vs Azure vs GCP vs Oracle
 
 ### ECS - Elastic Cloud Server
 Um Elastic Cloud Server (ECS) é um servidor em nuvem que fornece recursos de computação escaláveis e sob demanda para aplicativos seguros, flexíveis e eficientes. Consiste basicamente de vCPUs (Processador virtual), memória e disco, podendo ser usado exatamente como um computador local ou servidor físico.
-O ECS está disponível em vários tipos para os mais variados cenários, com aplicações que exigem alto poder de processamento, alta quantidade memória RAM, GPU integrada ou alta quantidade de IOPS para armazenamento utilizando NVMe acoplado físicamente ao servidor.
+O ECS está disponível em vários tipos para os mais variados cenários, com aplicações que exigem alto poder de processamento, alta quantidade de memória RAM, GPU integrada ou alta quantidade de IOPS para armazenamento utilizando NVMe acoplado físicamente ao servidor.
 #### Links:
 - [ECS Homepage](https://support.huaweicloud.com/intl/en-us/ecs/index.html)
 - [ECS General FAQs](https://support.huaweicloud.com/en-us/ecs_faq/ecs_faq_0001.html)
